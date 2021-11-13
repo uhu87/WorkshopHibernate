@@ -45,7 +45,6 @@ public class BookController {
         return "redirect:/book/all";
     }
 
-
     //_____________________________________________________________________________EDYCJA
     @GetMapping("/edit")
     public String editBook(@RequestParam Long id,  Model model){
